@@ -1,0 +1,378 @@
+a:link, a:visited
+{
+	color: #A1A1A1;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #A1A1A1;
+	text-decoration: none;
+}
+
+.nav, .nav:link, .nav:visited
+{
+	color: #a1a1a1;
+	text-decoration: none;
+}
+a.nav:hover
+{
+	font-weight: bold;
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+#back
+{
+	background-image: url(../images/back.png);
+}
+table
+{
+	empty-cells: show;
+}
+a img
+{
+   border: 0;
+}
+body, td, th
+{
+	color: #C0C0C0;
+	font-size: 0.85em;
+}
+body
+{ 
+	background: #024617 url("../images/backdrop2.png") repeat-x;
+	font: 95%/90% Verdana, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+input, textarea
+{
+	font-size: 9pt;
+	color: #B9B9B9;
+	font-family: Georgia;
+	background-color: #FFFFFF;
+}
+
+input.check
+{
+}
+
+select
+{
+	font-size: 7pt;
+	font-weight: normal;
+	color: #686868;
+	font-family: Georgia;
+	background-color: #FFFFFF
+}
+
+hr
+{
+	color: #3E3E3E;
+}
+
+.hrcolor
+{
+	height: 1px;
+	border: 0;
+	color: #9D9D9D;
+}
+
+.quote
+{
+	color: #939393;
+	background-color: #080808;
+	border: 1px solid black;
+	margin: 1px;
+	padding: 1px;
+	font-size: x-small;
+}
+
+.code
+{
+	color: #909090;
+	background-color: #080808;
+	border: 1px solid black;
+	margin: 1px;
+	padding: 1px;
+	font-size: x-small;
+	line-height: 1.3em;
+}
+
+.quoteheader, .codeheader
+{
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	font-size: x-small;
+	line-height: 1.2em;
+}
+
+.help
+{
+	cursor: help;
+}
+
+.meaction
+{
+	color: #FFFFFF;
+}
+
+.editor
+{
+	width: 90%;
+}
+
+.highlight
+{
+	background-color: #FFFFFF;
+	font-weight: bold;
+	color: black;
+}
+
+.windowbg
+{
+	color: #FFFFFF;
+	background-color: #070707;
+}
+.windowbg2
+{
+	color: #FFFFFF;
+	background-color: #070707;
+}
+.windowbg3
+{
+	color: #FFFFFF;
+	background-color: #070707;
+}
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg a:link, .titlebg a:visited, .titlebg div
+{
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+	background: url(../images/back2.png);
+}
+.titlebg a:hover
+{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.catbg, .catbg2
+{
+	font-weight: bold;
+	background-color: #070707;
+	background-image: url(../images/catbg.gif);
+	color: #FFFFFF;
+}
+
+.bordercolor
+{
+}
+.tborder
+{
+}
+
+.smalltext
+{
+	font-size: x-small;
+}
+.normaltext
+{
+	font-size: small;
+}
+.largetext
+{
+	font-size: normal;
+}
+/* definitions for the main tab, active means the tab reflects which page is displayed */
+.maintab_first, .maintab_back, .maintab_last, .maintab_active_first, .maintab_active_back, .maintab_active_last
+{
+	background-position: left bottom;
+	color: white;
+	text-transform: uppercase;
+	vertical-align: top;
+
+}
+.maintab_back, .maintab_active_back
+{
+	color: white;
+	text-decoration: none;
+	font-size:  9px;
+	vertical-align: top;
+	padding: 2px 6px 6px 6px;
+	font-family: tahoma, sans-serif;
+}
+
+.maintab_first
+{
+	background-repeat: no-repeat;
+	width: 8px;
+}
+.maintab_back
+{
+	background-repeat: repeat-x;
+}
+.maintab_last
+{
+	background-repeat: no-repeat;
+	width: 8px;
+}
+.maintab_active_first
+{
+	background-repeat: no-repeat;
+	width: 8x;
+}
+.maintab_active_back
+{
+	background-repeat: repeat-x;
+}
+.maintab_active_last
+{
+	background-repeat: no-repeat;
+	width: 8x;
+}
+
+/* how links behave in main tab. */
+.maintab_back a:link , .maintab_back a:visited, .maintab_active_back a:link , .maintab_active_back a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+.maintab_back a:hover, .maintab_active_back a:hover
+{
+	color: #e0e0ff;
+	text-decoration: none;
+}
+/* definitions for the mirror tab */
+.mirrortab_first, .mirrortab_back, .mirrortab_last, .mirrortab_active_first, .mirrortab_active_back, .mirrortab_active_last
+{
+	background-position: left top;
+	color: white;
+	text-transform: uppercase;
+	vertical-align: top;
+
+}
+.mirrortab_back, .mirrortab_active_back
+{
+	color: white;
+	text-decoration: none;
+	font-size: 9px;
+	vertical-align: bottom;
+	padding: 6px 6px 6px 6px;
+	font-family: tahoma, sans-serif;
+}
+
+.mirrortab_first
+{
+	background-repeat: no-repeat;
+	width: 8x;
+}
+.mirrortab_back
+{
+	background-repeat: repeat-x;
+}
+.mirrortab_last
+{
+	background-repeat: no-repeat;
+	width: 8x;
+}
+.mirrortab_active_first
+{
+	background-repeat: no-repeat;
+	width: 8px;
+}
+.mirrortab_active_back
+{
+	background-repeat: repeat-x;
+}
+.mirrortab_active_last
+{
+	background-repeat: no-repeat;
+	width: 8px;
+}
+
+/* how links behave in mirror tab. */
+.mirrortab_back a:link , .mirrortab_back a:visited, .mirrortab_active_back a:link , .mirrortab_active_back a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+.mirrortab_back a:hover, .mirrortab_active_back a:hover
+{
+	color: #e0e0ff;
+	text-decoration: none;
+}
+.width
+{
+	width: 70%;
+	margin: 0 auto;
+}
+.newspadding
+{
+	padding: 10px 0 5px 10px;
+	margin-bottom: 10px;
+	background: #001C05;
+}
+.logo
+{
+	text-align: center;
+	padding-bottom: 10px;
+	background: #001C05;
+	margin-bottom: 5px;
+}
+.buttons
+{
+	text-align: center;
+	padding: 10px;
+	background: #001C05;
+	margin-bottom: 5px;
+}
+.buttons a:link, .buttons a:visited
+{
+    color: #6db956;
+    font-family: Georgia;
+	font-size: 130%;
+}
+.buttons a:hover
+{
+	font-size: 140%;
+	background: #011700;
+	padding: 8px;
+	border: 1px solid #000000;
+	-moz-border-radius: 5px 3px / 3px 5px;
+border-radius: 5px 3px / 3px 5px;
+-moz-box-shadow: 0 0 3px #888;
+-webkit-box-shadow: 0 0 3px #888;
+box-shadow: 0 0 3px #888;
+}
+.user, .login
+{
+	text-align: center;
+	padding: 10px;
+	background: #001C05;
+	margin-bottom: 5px;
+}
+.main
+{
+	padding: 10px;
+	background: #001C05;
+	margin-bottom: 5px;
+}
+.footer
+{
+	text-align: center;
+	padding: 10px;
+	background: #001C05;
+}
+.border
+{
+	border: 1px solid #000000;
+	-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 5px 5px 5px black;
+-webkit-box-shadow: 5px 5px 5px black;
+box-shadow: 5px 5px 5px black;
+}
